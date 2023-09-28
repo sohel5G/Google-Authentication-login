@@ -2,7 +2,7 @@
 
 ---
 
-### Step One: Initial Setup
+## Step One: Initial Setup 
 
 1. Visit [console.firebase.google.com](https://console.firebase.google.com).
 2. Create a project (Skip Google Analytics).
@@ -12,7 +12,7 @@
 
 ---
 
-### Step Two: Integration
+## Step Two: Integration 
 
 6. Go to Docs > Build > Authentication > web > Get Started.
 7. Import `app` from the `firebase-init.js` file (created in step 3).
@@ -21,10 +21,20 @@
 
 ---
 
-### Step Three: Provider Setup
+## Step Three: Provider Setup 
 
 10. Click on Google > Import `googleAuthProvider` and create a new provider.
 11. Create a `handleGoogleSignIn` function.
 12. In the function, use `signInWithPopup(auth, provider)` and pass `auth` and `provider`.
 13. Activate SignIn method: Go to Authentication > Sign-in method > Click on the "Add new provider" button (Google, Facebook, GitHub, etc.).
 
+---
+
+### If you need to add more login: GitHub Login  
+
+1. Activate the auth provider same as in step 13.
+2. Create the App.
+3. Provide a redirect URL.
+4. Client ID.
+5. Client secret.
+6. Then follow step 3.

@@ -28,5 +28,21 @@
  
 
 
+----------------------------------------------------
+    If need to add more login  : Github Login  
+----------------------------------------------------
+
+1. Activate the auth provider same like step-13
+2. create App
+3. Provide redirect URL
+4, Client ID
+5. Client secret 
+6. then follow step 3 
+
+
+
+
+
+
 
 
