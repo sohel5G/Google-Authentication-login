@@ -1,0 +1,32 @@
+--------------------
+    Step One 
+--------------------
+
+1. visit console.firebase.google.com
+2. create project (Skip google analytic)
+3. register app (create a file in your project call > firebase-init.js )
+4. Install firebase [npm install firebase]
+5. add all the codes in your file that you created on step-3 (code you get when you did step-3) [it's not recommended to share those code to public]
+
+
+
+--------------------
+    Step Two
+--------------------
+
+5. Go to Docs > Build > Authentication > web > Get Start
+6. import app from the firebase-init.js file (we create in step-3) 
+7. import getAuth from firebase/auth  (IN our login page)
+8. create [ const auth = getAuth(app) ]  (In our login page)
+
+
+
+9. Click on Google > Import googleAuthProvider and create a new provider 
+10. create handleGoogleSignIn function
+11. in the function use signInWithPopUp(auth, provider)  and pass auth and provider 
+12. Activate SignIn method go to > Authentication > Sign-in-method > Click on add "new provider button" (google, facebook, github, etc... )
+13. 
+
+
+
+
